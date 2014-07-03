@@ -10,6 +10,7 @@ if(isset($_COOKIE['nick']))
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="font-awesome.css" />
 <link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <script src="js/jquery-1.8.2.js"></script>
 
 <title>Ping-Pong</title>

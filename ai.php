@@ -17,6 +17,7 @@ fclose($nicks);
 <script src="ping-pong-ai.js"></script>
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="font-awesome.css" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <body>
