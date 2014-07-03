@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background: #061012;
+	font-family: "Quicksand";
+	color: #FAF3F2;
+	
+}
+canvas
+{
+	margin: 0px;
+	background: #061012;
+}
+body #logo
+{
+	margin-bottom: 20px
+}
+
+#modes
+{
+	list-style-type: none;
+	font-family: "Quicksand";
+	position: relative;
+	left: -15px;
+}
+	
+	#modes a
+	{
+		text-decoration: none;
+		color: #faf3f2;
+		display: block;
+		font-size: 20px;
+		padding: 10px;
+		width: 230px;
+		margin-bottom: 20px;
+		border: 2px solid #faf3f2;
+		-webkit-transition: all 0.3s linear;
+		
+	}
+	#modes a:hover
+	{
+		border-color: #0C9;
+		color: #0C9;
+	}
+
+@font-face
+{
+	font-family: "Quicksand";
+	src: url("Quicksand_Book.otf");
+}
+
+p#msg
+{
+	color: #faf3f2;
+		display: block;
+		font-size: 30px;
+		padding: 20px;
+		width: 200px;
+		border: 2px solid #faf3f2;
+		text-align: center;
+		position: fixed;
+		pointer-events: none;
+}
+p#secmsg
+{
+	color: #faf3f2;
+		display: block;
+		font-size: 25px;
+		padding: 10px;
+		text-align: center;
+		position: fixed;
+		pointer-events: none;
+}
+div#infowrapper
+{
+	height: 300px;
+	width: 150px;
+	position: fixed;
+	top: 100px;
+	left: 60px;
+	pointer-events: none;
+}
+.desc
+{
+	margin: 0px;
+	font-size: 1.3em;
+}
+#infowrapper .info
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 100px;
+	top: -50px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+#infowrapper #ai
+{
+	font-size: 40px;
+}
+#lives
+{
+	list-style-type: none;
+	margi-left: 0px;
+	padding: 0px;
+}
+
+#lives > li
+{
+	float: left;
+	margin-right: 5px;
+	font-size: 1.3em;
+	color: #F00;
+	
+}
+#intro
+{
+	margin-top: 250px;
+}
+
+#log
+{
+	display: block;
+	padding: 0px;
+	margin-bottom: 35px;
+}
+#nick
+{
+	border: 0px;
+	outline: none;
+	height: 35px;
+	width: 340px;
+	padding: 10px 10px 10px 59px;
+	background: #000;
+	color: #faf3f2;
+	font-size: 23px;
+	-webkit-box-shadow: 1px 1px 0px rgba(255,255,255,0.2);
+	
+}
+.nick
+{
+width: 400px;
+position: relative;
+
+}
+
+.nick i
+{
+	position: absolute;
+	left: 15px;
+	top: 12px;
+}
+::-webkit-input-placeholder {
+   color: gray;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: gray;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: gray;  
+}
+
+:-ms-input-placeholder {  
+   color: gray;  
+}
+
+#nik
+{
+	font-size: 50px;
+	color: #09C;
+	margin: 0px;
+	margin-bottom: 5px;
+	font-weight:bold;
+}
+#hscore
+{
+	color: #FFD83C;
+	font-size: 25px;
+}
+.icon-star
+{
+	color: #faf3f2;
+}
+.hscore
+{
+	font-size: 1.5em;
+	-webkit-transition: all 0.3s linear;
+	color: #FFD83C;
+}
