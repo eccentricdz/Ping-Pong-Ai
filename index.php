@@ -8,7 +8,7 @@ if(isset($_COOKIE['nick']))
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" href="font-awesome.min.css" />
+<link rel="stylesheet" href="font-awesome.css" />
 <link rel="stylesheet" href="style.css">
 <script src="js/jquery-1.8.2.js"></script>
 
